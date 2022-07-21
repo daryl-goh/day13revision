@@ -3,8 +3,11 @@ package sg.edu.nus.iss.d13revision.services;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import sg.edu.nus.iss.d13revision.models.Person;
 
+@Service
 public class PersonService {
     private List<Person> persons = new ArrayList<Person>();
     
